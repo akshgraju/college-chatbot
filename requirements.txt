@@ -1,0 +1,7 @@
+tensorflow
+keras
+pickle-mixin
+nltk
+numpy
+Flask
+gunicorn
