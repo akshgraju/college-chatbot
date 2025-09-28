@@ -5,79 +5,162 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "What's up?",
+        "Good morning"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello! Welcome to our college's help bot. How can I assist you today?",
+        "Hi there! How can I help you with your college questions?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I am leaving",
+        "Have a Good day"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Goodbye! Feel free to ask if you have more questions.",
+        "Have a great day!",
+        "Thanks for visiting. Come back again soon."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "You're welcome!",
+        "Happy to help!",
+        "Any time!",
+        "My pleasure."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "majors_offered",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What majors do you offer?",
+        "List of majors",
+        "What can I study there?",
+        "Tell me about your academic programs",
+        "What are the available courses?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We offer a wide range of majors including Computer Science, Business Administration, Psychology, and Biology. Is there a specific field you're interested in?"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "specific_major_info",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Tell me about the Computer Science major.",
+        "What is the curriculum for Business Administration?",
+        "Details about the Psychology program",
+        "How is the Biology department?"
       ],
       "responses": [
-        "Shipping takes 2-4 business days",
-        "Delivery takes 2-4 business days"
+        "Our Computer Science program focuses on AI, software development, and cybersecurity. For detailed curriculum information, you can check the academics page on our website."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "admission_requirements",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What are the admission requirements?",
+        "What do I need to apply?",
+        "Application requirements",
+        "Eligibility criteria for admission"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "For undergraduate admissions, you'll need your high school transcripts, a completed application form, and standardized test scores. You can find all the details on our admissions portal."
+      ]
+    },
+    {
+      "tag": "application_status",
+      "patterns": [
+        "How can I check my application status?",
+        "Where do I see if I got accepted?",
+        "Check my admission status"
+      ],
+      "responses": [
+        "You can check your application status by logging into the applicant portal on our website using the credentials you received after applying."
+      ]
+    },
+    {
+      "tag": "application_deadline",
+      "patterns": [
+        "When is the application deadline?",
+        "What is the last date to apply?",
+        "When do applications close?"
+      ],
+      "responses": [
+        "The deadline for the upcoming academic year is July 31st. We recommend submitting your application well before the final date."
+      ]
+    },
+    {
+      "tag": "tuition_fees",
+      "patterns": [
+        "How much is the tuition fee?",
+        "What is the fee structure?",
+        "Cost of attendance",
+        "Annual fees for a course"
+      ],
+      "responses": [
+        "The annual tuition fee for most undergraduate programs is approximately ₹1,50,000. This does not include hostel or other miscellaneous fees."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Do you offer scholarships?",
+        "Is there any financial aid available?",
+        "How can I get a scholarship?",
+        "Tell me about financial aid options"
+      ],
+      "responses": [
+        "Yes, we offer both merit-based and need-based scholarships. You can find the full list of scholarships and their eligibility criteria on the financial aid section of our website."
+      ]
+    },
+    {
+      "tag": "hostel_info",
+      "patterns": [
+        "Do you have a hostel?",
+        "Tell me about the accommodation.",
+        "Are there dorms available?",
+        "On-campus housing options"
+      ],
+      "responses": [
+        "Yes, we provide on-campus hostel facilities for students with options for single and shared rooms. The facilities include Wi-Fi, laundry, and a mess hall."
+      ]
+    },
+    {
+      "tag": "campus_tour",
+      "patterns": [
+        "Can I visit the campus?",
+        "How can I schedule a campus tour?",
+        "I want to see the college."
+      ],
+      "responses": [
+        "We would love to show you around! You can schedule a guided campus tour by visiting the 'Visit Us' page on our official website."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How do I contact the admissions office?",
+        "What is the contact number?",
+        "College contact information"
+      ],
+      "responses": [
+        "You can reach the admissions office at +91-XXX-XXXXXXX or via email at admissions@college.edu. Our office hours are 9 AM to 5 PM, Monday to Friday."
       ]
     }
   ]
